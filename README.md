@@ -23,17 +23,33 @@ __Task 1:__<br>
 __Task 2:__<br>
 
   <i>Permutate:</i><br>
-    1. Permute the Data Matrix<br>
-          o Do this by shuffling the individual rows in the dataset.<br>
-    2. Display color coded image of permuted Data Matrix<br><br>
+  1. Permute the Data Matrix<br>
+        o Do this by shuffling the individual rows in the dataset.<br>
+  2. Display color coded image of permuted Data Matrix<br><br>
 
   <i>Apply Signature Technique:</i><br>
-    3. Recover the image clusters using Signature technique. The method to generate the signature is as under.<br>
-              o Sum all the values in a row<br>
-              o Calculate mean of the row<br>
-              o Multiply the Sum of the row with its Mean<br>
-              o The above three step produces a signature for a row<br>
-    4. Rearrange (sort) the Similarity Matrix by signature value of each row.<br>
-    5. Apply Task1 on the rearranged matrix<br>
-    6. Display the color coded image<br>
-      
+  1. Recover the image clusters using Signature technique. The method to generate the signature is as under.<br>
+        o Sum all the values in a row<br>
+        o Calculate mean of the row<br>
+        o Multiply the Sum of the row with its Mean<br>
+        o The above three step produces a signature for a row<br>
+  2. Rearrange (sort) the Similarity Matrix by signature value of each row.<br>
+  3. Apply Task1 on the rearranged matrix<br>
+  4. Display the color coded image<br><br>
+
+__Task 3:__<br>
+
+  <i>Weighted Graph:</i><br>
+  1. Create a weighted graph for the permuted data set<br>
+        o Calculate correlation matrix and consider it as a graph saved in a 2D array.<br>
+        o Remove the edges having weights below certain threshold, provide input option.<br>
+        o Create a weighted graph where each node has a certain weight.<br> 
+        o The weight of the node (in this case) is the sum of weights of all the edges connected to it. <br>
+        o After that you find the node with the highest weight and get its neighbor and this becomes your one cluster<br>
+        o Then again find weights for each node and calculate the node with the highest weight.<br>
+        o The process is repeated until we are left with no clusters.<br>
+
+  <i>Visualize</i><br>
+  1. Visualize each of the extracted cluster<br><br>
+    
+    
