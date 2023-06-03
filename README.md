@@ -23,17 +23,17 @@ __Task 1:__<br>
 __Task 2:__<br>
 
   <i>Permutate:</i><br>
-    1. Permute the Data Matrix<br>
-          o Do this by shuffling the individual rows in the dataset.<br>
-    2. Display color coded image of permuted Data Matrix<br><br>
+  1. Permute the Data Matrix<br>
+        o Do this by shuffling the individual rows in the dataset.<br>
+  2. Display color coded image of permuted Data Matrix<br><br>
 
   <i>Apply Signature Technique:</i><br>
-    3. Recover the image clusters using Signature technique. The method to generate the signature is as under.<br>
-              o Sum all the values in a row<br>
-              o Calculate mean of the row<br>
-              o Multiply the Sum of the row with its Mean<br>
-              o The above three step produces a signature for a row<br>
-    4. Rearrange (sort) the Similarity Matrix by signature value of each row.<br>
-    5. Apply Task1 on the rearranged matrix<br>
-    6. Display the color coded image<br>
+  1. Recover the image clusters using Signature technique. The method to generate the signature is as under.<br>
+        o Sum all the values in a row<br>
+        o Calculate mean of the row<br>
+        o Multiply the Sum of the row with its Mean<br>
+        o The above three step produces a signature for a row<br>
+  2. Rearrange (sort) the Similarity Matrix by signature value of each row.<br>
+  3. Apply Task1 on the rearranged matrix<br>
+  4. Display the color coded image<br>
       
