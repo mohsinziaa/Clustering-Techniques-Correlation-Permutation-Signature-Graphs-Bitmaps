@@ -36,4 +36,19 @@ __Task 2:__<br>
   2. Rearrange (sort) the Similarity Matrix by signature value of each row.<br>
   3. Apply Task1 on the rearranged matrix<br>
   4. Display the color coded image<br>
-      
+
+__Task 3:__<br>
+
+  <i>Weighted Graph:</i><br>
+  1. Create a weighted graph for the permuted data set.<br>
+        o Calculate correlation matrix and consider it as a graph saved in a 2D array.<br>
+        o Remove the edges having weights below certain threshold, provide input option.<br>
+        o Create a weighted graph where each node has a certain weight. The weight of the node (in this case) is the sum of weights of all the edges connected to it.<br>
+        o After that you find the node with the highest weight and get its neighbor and this becomes your one cluster.<br>
+        o Then again find weights for each node and calculate the node with the highest weight.
+        o The process is repeated until we are left with no clusters.
+
+  <i>Visualize:</i><br>
+  1. Visualize each of the extracted cluster.      
+
+
